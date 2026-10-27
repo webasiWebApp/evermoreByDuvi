@@ -1,5 +1,5 @@
 export const cta = {
-  image: "/images/cta.png",
+  image: "/images/cta.webp",
   width: 1109,
   height: 507,
   alt: "Groom and bride seated on either side of a warmly lit sitting room",

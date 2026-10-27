@@ -41,5 +41,5 @@ export const footer = {
     { label: "Pinterest" },
   ] satisfies FooterLink[],
   copyright: "© 2026 Evermore Events",
-  privacy: { label: "Privacy policy" } as FooterLink,
+  privacy: { label: "Privacy policy", href: "/privacy-policy" } as FooterLink,
 } as const;

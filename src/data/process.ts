@@ -9,7 +9,7 @@ export type ProcessStep = {
 
 export const processIntro = {
   eyebrow: "Our Process",
-  heading: "From First Call to Final Toast: Complete Event Management & Seamless Service",
+  heading: "Every Detail Handled, From First Enquiry to Final Celebration",
   /** The reference copy is cut off after "design"; the ending is a placeholder. */
   subtitle:
     "From your initial inquiry to the last glass raised in celebration, we handle every detail of your event with precision, creativity, and care. Our team manages vendor coordination, design and day-of logistics.",
