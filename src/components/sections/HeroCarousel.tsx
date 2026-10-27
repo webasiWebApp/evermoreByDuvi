@@ -92,7 +92,7 @@ export function HeroCarousel() {
                 ))}
               </h1>
               <motion.p
-                className="mt-[clamp(1.5rem,2.1vw,2.25rem)] max-w-[758px] text-[clamp(0.875rem,1.11vw,1rem)] leading-[1.25]"
+                className="mt-[clamp(1.5rem,2.1vw,2.25rem)] max-w-[758px] text-[clamp(0.875rem,1.11vw,1rem)] leading-[1.5]"
                 initial={{ y: reduced ? 0 : 24, opacity: reduced ? 1 : 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.9, delay: 0.25 + words.length * 0.09 + 0.1, ease: EASE }}

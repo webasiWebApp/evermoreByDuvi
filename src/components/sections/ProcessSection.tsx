@@ -27,7 +27,7 @@ function ProcessCard({ step }: { step: ProcessStep }) {
             <span className="sr-only">Step {step.numeral}: </span>
             {step.title}
           </h3>
-          <p className="t-process-body mt-2">{step.description}</p>
+          <p className="t-process-body mt-3">{step.description}</p>
         </div>
       </div>
     </article>

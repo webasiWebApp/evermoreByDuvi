@@ -10,7 +10,7 @@ export const servicesIntro = {
   eyebrow: "Our Service",
   heading: "From First Call to Final Toast: Complete Event Management & Seamless Service",
   subtitle:
-    "I’m Duvini Rupasinghe, the founder behind Evermore Events by Duvi, with a background in Events, Tourism and Hospitality Management and a passion for creating meaningful experiences.",
+    "From full wedding planning to day-of coordination and special celebrations, we offer tailored support at every stage, so your event feels organised, personal, and beautifully considered.",
 } as const;
 
 export const serviceImageSize = { width: 451, height: 677 } as const;
@@ -46,7 +46,7 @@ export const services: readonly Service[] = [
     title: "Special Celebrations",
     description:
       "Surprise proposals, anniversaries, and corporate gatherings planned with the same care as a wedding, from concept and styling through to coordination on the day.",
-    image: "/images/Service/s4.webp",
-    alt: "Close portrait of a bride’s jewellery, headpiece and jasmine flowers",
+    image: "/images/Service/page/Special%20Events.webp",
+    alt: "A couple at a styled gender reveal celebration with a balloon arch and blue smoke",
   },
 ];

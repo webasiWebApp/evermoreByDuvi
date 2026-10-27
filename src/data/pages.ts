@@ -71,6 +71,8 @@ export const servicesPage = {
         ...services[2],
         id: "destination-weddings",
         title: "Destination Weddings & Bespoke Celebrations",
+        image: "/images/Service/page/Destination%20Weddings%20%26%20Bespoke%20Celebrations.webp",
+        alt: "Destination Weddings & Bespoke Celebrations",
         description:
           "For couples dreaming of celebrating somewhere special, we can discuss tailored planning support based on the destination, event requirements, and availability.",
       },
@@ -86,6 +88,8 @@ export const servicesPage = {
         ...services[1],
         id: "surprise-proposals",
         title: "Surprise Proposals & Romantic Celebrations",
+        image: "/images/Service/page/Surprise%20Proposals%20%26%20Romantic%20Celebrations.webp",
+        alt: "Surprise Proposals & Romantic Celebrations",
         description:
           "From intimate moments to thoughtfully styled surprises, we appreciate the creativity and care involved in making life’s special milestones memorable. Enquire to discuss bespoke celebration requirements. With the respective vendors only planning will be happening.",
       },
@@ -93,6 +97,8 @@ export const servicesPage = {
         ...services[3],
         id: "special-events",
         title: "Special Events",
+        image: "/images/Service/page/Special%20Events.webp",
+        alt: "Special Events",
         description:
           "Birthdays and gender reveals: drawing on experience across event management and coordination, we also welcome selected enquiries for special celebrations.",
       },
@@ -195,7 +201,7 @@ export const portfolioPage = {
     "From weddings and meaningful celebrations to creative surprise proposals, each project reflects a different part of my experience in planning, coordination, and bringing ideas to life.",
     "Explore the moments, details, and experiences that have shaped my journey so far.",
   ],
-  /** Alt text for p4–p7 is generic until the photos are described. */
+  /** Alt text for p4–p20 is generic until the photos are described. */
   gallery: [
     { src: "/images/Portfolio/p1.webp", width: 1080, height: 1920, alt: "Bride in an embroidered ivory gown and gold headpiece, smiling in a leafy garden" },
     { src: "/images/Portfolio/p2.webp", width: 1066, height: 1600, alt: "Couple on a hillside pavilion beside an infinity pool under a cloud-filled sky" },
@@ -206,6 +212,19 @@ export const portfolioPage = {
     { src: "/images/full-2.webp", width: 2048, height: 1366, alt: "A couple walking hand in hand beside an infinity pool with a pavilion and misty mountains" },
     { src: "/images/Portfolio/p6.webp", width: 1066, height: 1600, alt: "Couple portrait on their wedding day" },
     { src: "/images/Portfolio/p7.webp", width: 1066, height: 1600, alt: "Wedding day detail" },
+    { src: "/images/Portfolio/p8.webp", width: 1080, height: 1920, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p9.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p10.webp", width: 4278, height: 6418, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p11.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p12.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p13.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p14.webp", width: 1365, height: 1723, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p15.webp", width: 1365, height: 2048, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p16.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p17.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p18.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p19.webp", width: 1080, height: 1350, alt: "Wedding celebration moment" },
+    { src: "/images/Portfolio/p20.webp", width: 1200, height: 1600, alt: "Wedding celebration moment" },
   ],
 } as const;
 

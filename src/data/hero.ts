@@ -25,7 +25,7 @@ export const heroSlides: readonly HeroSlide[] = [
   },
   {
     id: "hero-2",
-    image: "/images/Hero/heroMain2.webp",
+    image: "/images/Hero/heroMain2.jpg",
     alt: "A groom in a tan suit and a bride in a white lace saree walking hand in hand across a lawn",
     position: "50% 62%",
     thumbPosition: "48% 50%",
@@ -35,7 +35,7 @@ export const heroSlides: readonly HeroSlide[] = [
   },
   {
     id: "hero-3",
-    image: "/images/Hero/heroMain3.webp",
+    image: "/images/Hero/heroMain3.jpg",
     alt: "A couple seated apart in a white pavilion, the bride in a pink saree glancing away",
     position: "50% 45%",
     thumbPosition: "72% 50%",

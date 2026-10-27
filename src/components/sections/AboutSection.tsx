@@ -26,10 +26,10 @@ export function AboutSection() {
       <div className="mx-auto mt-[clamp(2rem,4.9vw,70px)] max-w-[1057px]">
         <PhotoTriptych images={about.images} />
 
-        <Reveal delay={0.2} className="mt-5 flex items-start justify-between gap-6">
+        <Reveal delay={0.2} className="mt-6 flex items-start justify-between gap-6">
           <div>
             <p className="t-founder">{about.founder.name}</p>
-            <p className="t-body !text-[clamp(0.875rem,1.11vw,1rem)] text-ink/80">{about.founder.role}</p>
+            <p className="t-body mt-1 !text-[clamp(0.875rem,1.11vw,1rem)] text-ink/80">{about.founder.role}</p>
           </div>
           <a
             href={about.cta.href}

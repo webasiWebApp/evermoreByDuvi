@@ -3,6 +3,7 @@ import { HorizontalRule } from "@/components/layout/HorizontalRule";
 import { SiteShell } from "@/components/layout/SiteShell";
 import { Reveal } from "@/components/motion/Reveal";
 import { CtaSection } from "@/components/sections/CtaSection";
+import { TeamSection } from "@/components/sections/TeamSection";
 import { PageHeader } from "@/components/sections/PageHeader";
 import { ProseSection } from "@/components/sections/ProseSection";
 import { WhyUsSection } from "@/components/sections/WhyUsSection";
@@ -55,6 +56,9 @@ export default function AboutPage() {
       <HorizontalRule />
 
       <WhyUsSection />
+      <HorizontalRule />
+
+      <TeamSection />
       <HorizontalRule />
 
       <CtaSection />
